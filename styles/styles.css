@@ -14,7 +14,7 @@ h1{
 
 }
 
-img{
+main img{
     width:150px;
     height: auto;
     border: 1px solid black;
@@ -25,5 +25,28 @@ img{
 }
 
 p{
-    padding:10px;
+    padding:0;
 }
+
+aside{
+
+    width:20rem;
+    margin: 1erm;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color:#333;
+    text-align: center;
+}
+
+aside img{
+    width:200px;
+    height:auto;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
