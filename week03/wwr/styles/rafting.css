@@ -60,10 +60,12 @@ nav a{
  .hero article p{
     color:var(--accent2-color);
     padding: 30px;
+    font-family: "Open Sans";
  }
 
  p{
     color:var(--secondary-color);
+    font-family: "Open Sans";
  }
 
  article{
