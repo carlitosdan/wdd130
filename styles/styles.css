@@ -61,3 +61,36 @@ footer{
     text-align: center;
 }
 
+
+.flexcontainer{
+    border:1px solid #000;
+    background-color: chocolate;
+    display:flex;
+    flex-direction: row;
+    justify-content: 
+
+}
+
+.flexitem{
+    width:250px;
+    max-width:250px;
+    margin:10px;
+    border: 1px solid #35adad;
+    background-color: darkolivegreen;
+
+}
+
+.flex1{
+
+    min-height: 100px;
+}
+
+.flex2{
+
+    min-height: 100px;
+}
+
+.flex3{
+
+    min-height: 300px;
+}
