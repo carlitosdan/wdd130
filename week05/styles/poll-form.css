@@ -59,21 +59,48 @@ legend{
 label{
     text-align: right;
     padding-right: 1rem;
+    
 }
 
-input,select, textarea{
+input, select, textarea{
 
-    padding:0.5rem;
+    padding:0.4rem;
     font-size: 14px;
 
+
 }
 
-input[type="chexkbox"]{
-    width:22px;
+input[type="checkbox"]{
+    width: 22px;
     height: 22px;
-    vertical-align: bottom;
 
+   
 }
+
+.form_item_ci{
+
+    display:grid;
+    grid-template-columns: 100px auto;
+    border: 0px solid #F6AE2D;
+    align-items: center;
+    margin: 0.3rem 0;
+ 
+}
+
+
+.form_item_q{
+
+    display:grid;
+    grid-template-columns: auto 210px;
+    border: 0px solid #F6AE2D;
+    align-items: center;
+    margin: 0.3rem 0;
+    align-items: start;
+    
+}
+
+
+
 
 button{
 margin:1rem;
@@ -82,23 +109,11 @@ color:var(--color-white);
 border:none;
 border-radius: 0.5rem;
 padding:0.75rem;
-
+cursor: pointer;
 }
 
 button:hover{
 background-color: var(--accent2-color);
-}
-
-.my_grid{
-   margin:1rem auto;
-   display:grid;
-   grid-template-columns: 120px 1fr 1fr;
-   grid-gap:30px;
-   max-width: 1000px;
-   align-items: center;
-
-
-
 }
 
 
