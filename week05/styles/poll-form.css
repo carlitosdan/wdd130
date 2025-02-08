@@ -92,14 +92,17 @@ input[type="checkbox"]{
 
     display:grid;
     grid-template-columns: auto 200px;
-    border: 1px solid #F6AE2D;
+    border: 0px solid #F6AE2D;
     align-items: center;
     margin: 0.3rem 0;
     align-items: start;
     
 }
 
+.form_item_q label{
 
+    font-size: 1.1rem;
+}
 
 
 button{
