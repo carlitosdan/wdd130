@@ -288,7 +288,7 @@ textarea {
    
    display: grid;
    grid-template-columns: 6fr 1fr 1fr;
-   align-items: left;
+   align-items:center;
    border: 0px solid #33658A;
  }
 
@@ -343,6 +343,44 @@ textarea {
    padding-right: 12px;
   }
 
-    
+  .emptitle{
+   max-width: 1000px;
+   width:100%;
+   margin:0 auto;
+
+  }
+
+  .emptitle h1{
+   text-align: center;
+   padding-bottom: 30px;
+   padding-top: 40px;
+  }
+
+  .emp{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   grid-gap:30px;
+   max-width: 1000px;
+
+  }
+
+
+  .emp figure{
+   border: 01px solid #33658A;
+   margin:0 auto;
+  }
+  .emp figure img{
+
+   max-width: 220px;
+   
+
+  }
+  
+  .emp figure figcaption{
+
+   text-align: center;
+
+  }
 
 
