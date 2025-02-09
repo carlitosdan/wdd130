@@ -90,6 +90,28 @@ width:20px;
 padding:5px;
    
 }
+.h_content{
+   display:flex;
+   justify-content: center;
+   /*flex-wrap: wrap;*/
+}
+
+.c_1 {
+
+   width:350px;
+   padding:10px;
+
+}
+.c_2{
+   width:250px;
+   padding:10px;
+
+}
+.c_3{
+   width:350px;
+   padding:10px;
+
+}
 
 
 .my_grid{
@@ -139,31 +161,36 @@ section h2{
 text-align: center;
 font-size: 34px;
 
+}
+
+section .contact{
+
+   border:0px solid #F6AE2D;
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+   padding-left: 20px;
+
 
 }
 
-.h_content{
-   display:flex;
-   justify-content: center;
-   /*flex-wrap: wrap;*/
+.info h3{
+   text-align: center;
+}
+.contactform h3{
+   text-align: center;
 }
 
-.c_1 {
-
-   width:350px;
-   padding:10px;
-
+.info p{
+   text-align: left;
+   padding-top: 10px;
 }
-.c_2{
-   width:250px;
-   padding:10px;
-
+.contactform {
+   text-align: left;
 }
-.c_3{
-   width:350px;
-   padding:10px;
 
-}
+
+
 
 .h_img{
    max-width:250px;
@@ -219,5 +246,103 @@ footer{
    width: 200px;
    text-align: end;
 }
+
+
+.title{
+   max-width: 1000px;
+   margin:0 auto;
+}
+
+.title h1{
+   text-align:center;
+   margin:0 auto;
+   padding-top: 20px;
+   padding-bottom: 25px ;
+   font-family: Open Sans;
+   color:var(--Primary-color);
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+  box-sizing: border-box;
+  border: 01px solid #33658A;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  background: rgba(230, 228, 228, 0.4);
+  width:95%;
+}
+
+.form_item{
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   align-items: center;
+
+  
+ }
+
+ .form_item_n{
+   
+   display: grid;
+   grid-template-columns: 6fr 1fr 1fr;
+   align-items: left;
+   border: 0px solid #33658A;
+ }
+
+ input[type="checkbox"]{
+   width: 20px;
+   height: 20px;
+   
+  
+}
+
+
+ .form_item{
+   border: 0px solid #33658A;
+ }
+
+ button{
+   margin:1rem;
+   background-color:var(--secondary-color);
+   color:var(--color-white);
+   border:none;
+   border-radius: 0.5rem;
+   padding:0.75rem;
+   cursor: pointer;
+   }
+   
+   button:hover{
+   background-color: var(--accent2-color);
+   }
+
+   .map{
+      padding-top: 60px;
+      padding-bottom: 30px;
+      margin:0 auto;
+      max-width: 1000px;;
+   }
+
+   .specialradio {
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-top: 15px;
+      padding-left: 10px;
+
+
+
+  }
+
+  .specialradio label{
+   padding-right: 12px;
+  }
+
+    
 
 
