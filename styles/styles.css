@@ -42,7 +42,7 @@ p{
 aside{
 
     width:20rem;
-    margin: 1erm;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: var(--color-gray-eee);
@@ -67,8 +67,6 @@ footer{
     background-color: chocolate;
     display:flex;
     flex-direction: row;
-    justify-content: 
-
 }
 
 .flexitem{
