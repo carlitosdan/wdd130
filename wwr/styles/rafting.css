@@ -74,7 +74,7 @@ nav a {
     left: 40%;
     font-family: "Open Sans";
     color:var(--color-white );
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     padding: 30px;
    
  }
@@ -88,7 +88,7 @@ nav a {
     left:10px;
     right:10px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
  }
 
  .hero article img{
@@ -225,7 +225,7 @@ section .contact{
    text-align: center;
    color:var(--color-white);
    font-weight: 400;
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(0, 0, 0, 0.75);
    padding: 5px;;
 
 
@@ -406,7 +406,7 @@ textarea {
 }
 
 .banner-content{
-   background: rgba(0, 0, 0, 0.5); /* Transparent background */
+   background: rgba(0, 0, 0, 0.75); /* Transparent background */
    
    padding-top: 30px;
    padding-bottom: 30px;
@@ -429,7 +429,7 @@ textarea {
 .btn {
    display: inline-block;
    background: var(--accent2-color);
-   color: white;
+   color: #2F4858;
    padding: 20px 30px;
    text-decoration: none;
    font-size: 1.3rem;
@@ -467,11 +467,18 @@ textarea {
 }
 
 .product {
-   background-color:var(--accent1-color);
+   background-color:var(--secondary-color);
+   color:#fff;
    padding: 20px;
    border-radius: 5px;
    text-align: center;
    width: 200px;
+}
+
+.product p {
+
+   color:#fff;
+   
 }
 
 .product img {
@@ -545,9 +552,11 @@ textarea {
    border-radius: 10px;
 }
 
-.newsletter h2, p{
+.newsletter h2{
    color:#fff;
 }
+
+.pnl{ color:#fff; }
 
 
 .newsletter input {
@@ -562,7 +571,7 @@ textarea {
 }
 .newsletter button {
    background-color:var(--accent2-color);
-   color: white;
+   color: var(--Primary-color);
    padding: 10px 20px;
    border: none;
    border-radius: 5px;
@@ -589,7 +598,7 @@ textarea {
 
 }
 .trip-box {
-   background: rgba(255, 255, 255, 0.85);
+   background: rgba(255, 255, 255, 0.95);
    padding: 20px;
    border-radius: 5px;
    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.8);
@@ -605,6 +614,7 @@ textarea {
 
 .trip-box p{
    text-align: left;
+   color:var(--Primary-color);
 }
 
 .space{
@@ -630,4 +640,37 @@ font-size: 2rem;
 padding-left: 30px;
 color:#fff;
 padding-top:15px;
+}
+
+
+table {
+   width: 90%;
+   margin: auto;
+   border-collapse: collapse;
+   background: white;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+th, td {
+   padding: 12px;
+   border: 1px solid #ddd;
+}
+
+th {
+   background-color:var(--secondary-color);
+   color: white;
+   text-transform: uppercase;
+}
+
+
+
+tr:hover {
+   background-color: #fafafa;
+}
+
+.requirements {
+   font-weight: bold;
+   color: #d9534f;
 }
